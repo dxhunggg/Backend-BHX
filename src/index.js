@@ -9,7 +9,10 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3001;
 
-const allowedOrigins = ["http://localhost:5173", /\.vercel\.app$/];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://bachhoaxanh-1nwtri2bh-xuan-hung-djinhhs-projects.vercel.app",
+];
 
 app.use(
   cors({
