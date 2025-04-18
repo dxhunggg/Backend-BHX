@@ -11,7 +11,7 @@ const port = process.env.PORT || 3001;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://bachhoaxanh-nhjxtxp2q-xuan-hung-djinhhs-projects.vercel.app",
+  "https://bachhoaxanh-git-master-xuan-hung-djinhhs-projects.vercel.app",
 ];
 
 app.use(
